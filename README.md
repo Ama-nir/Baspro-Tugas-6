@@ -1,13 +1,13 @@
 # Baspro-Tugas-Pertemuan-6
-### Program Penjumlahan Matriks 5x5
+### Program Matriks 5x5
 
-Program ini dibuat untuk menghitung hasil **penjumlahan dua buah matriks berukuran 5x5** menggunakan bahasa pemrograman Python.
+Program ini adalah matriks 5x5 dalam bahasa python, program matriks ini akan menghitung perkalian dengan matriks 5x5 yang sudah ditentukan nilainya.
 
 ---
 
 ## Deskripsi
 
-Program akan melakukan penjumlahan matriks `A` dan `B` secara manual (tanpa menggunakan library seperti NumPy), lalu menyimpan hasilnya di matriks `hasil`, dan menampilkannya ke layar.
+Program akan melakukan perkalian matriks pertama dan kedua secara manual (tanpa menggunakan library seperti NumPy), lalu menyimpan hasilnya di matriks `hasil(result)`, dan menampilkannya.
 
 ---
 
@@ -15,8 +15,8 @@ Program akan melakukan penjumlahan matriks `A` dan `B` secara manual (tanpa meng
 
 Dua buah matriks 5x5:
 
-- Matriks A berisi angka-angka yang telah ditentukan.
-- Matriks B juga berisi angka-angka yang telah ditentukan.
+- Matriks Pertama(First_Matriks).
+- Matriks Kedua(Second_Matriks).
 
 ### Contoh:
 
@@ -61,14 +61,13 @@ for row in result:
 Penjelasan:
 - `i` digunakan untuk iterasi baris.
 - `j` digunakan untuk iterasi kolom.
-- Elemen pada posisi `[i][j]` dari matriks A dan B dijumlahkan, lalu ditambahkan ke dalam list `row`.
-- Setelah semua elemen pada satu baris dijumlahkan, `row` ditambahkan ke list `result`.
-- Fungsi `add_matrices()` dipanggil dan hasilnya disimpan di variabel `result`.
+- Elemen pada posisi `[i][j]` dari matriks pertama dan kedua dikalikan, lalu ditambahkan ke dalam list `row`.
+- Setelah semua elemen pada satu baris dikalikan, `row` ditambahkan ke list `result`.
 - Setiap baris dalam `result` dicetak satu per satu ke layar.
 
 ## Matriks Hasil
 
-Contoh hasil output dari program (tergantung nilai matriks A dan B):
+Berikut hasil output dari program:
 
 ```
 [56, 220, 270, 188, 188]
