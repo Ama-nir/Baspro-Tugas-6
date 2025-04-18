@@ -62,7 +62,7 @@ Penjelasan:
 - `i` digunakan untuk iterasi baris.
 - `j` digunakan untuk iterasi kolom.
 - Elemen pada posisi `[i][j]` dari matriks pertama dan kedua dikalikan, lalu ditambahkan ke dalam list `row`.
-- Setelah semua elemen pada satu baris dikalikan, `row` ditambahkan ke list `result`.
+- Setelah semua elemen pada satu baris dikalikan.
 - Setiap baris dalam `result` dicetak satu per satu ke layar.
 
 ## Matriks Hasil
